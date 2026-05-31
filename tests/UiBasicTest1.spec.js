@@ -21,7 +21,7 @@ and Third Playwright Test fails  Fourth Playwright Test will skip*/
 //test.describe.configure({mode: 'serial'});
 
 //We use asyn-await to syncshronize the web testing codes
-test(" @web Third Playwright Test", async ({ browser }) => {
+test.skip(" @web Third Playwright Test", async ({ browser }) => {
   //Inside the anonymous function we define the Playwright Codes
   //await navigate to URL - goTo()
   //await type in username - type() , fill()

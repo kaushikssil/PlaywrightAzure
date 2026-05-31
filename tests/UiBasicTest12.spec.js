@@ -23,7 +23,7 @@ test.beforeAll(async () => {
   response = await apiUtils.getOrderId(orderPayload);
 });
 
-test.skip("Refactor End To End Scenario with methods - Network Intercept 1", async ({
+test("Refactor End To End Scenario with methods - Network Intercept 1", async ({
   browser,
 }) => {
   const context = await browser.newContext();
